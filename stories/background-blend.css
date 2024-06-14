@@ -1,0 +1,28 @@
+body {
+  margin: 0;
+}
+
+div {
+  text-align: center;
+  background-size: cover;
+  background-image: url('assets/tea-ceremony.jpg');
+  background-position: 50% 50%;
+}
+
+div h1 {
+  margin: 0;
+  font-size: 20vw;
+  text-transform: uppercase;
+  font-family: Recursive, sans-serif;
+  line-height: 1.2;
+}
+
+.blended h1 {
+  color: #000;
+  background: #fff;
+  font-size: 19vw;
+  mix-blend-mode: lighten;
+}
+
+.blended {
+}

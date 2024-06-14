@@ -1,0 +1,50 @@
+import { Meta, ColorPalette, ColorItem } from '@storybook/blocks';
+
+<Meta title="Foundations/Color Palettes" />
+
+# Color Palettes
+
+  ## Chroma Palettes
+
+  Since we're working with OKLCH colors, we can create chromatic scales by just changing the chroma value (the second value in oklch colors).
+
+  ### Rebecca Purple
+  <ColorPalette>
+    <ColorItem
+      title="color.chroma.scales"
+      subtitle="Rebecca Purple"
+      colors={{
+        '900': 'oklch(0.44 0.06 303)',
+        '800': 'oklch(0.44 0.16 303)',
+        '700': 'oklch(0.44 0.26 303)',
+        '600': 'oklch(0.44 0.36 303)',
+        '500': 'oklch(0.44 0.46 303)',
+        '400': 'oklch(0.44 0.56 303)',
+        '300': 'oklch(0.44 0.76 303)',
+        '200': 'oklch(0.44 0.86 303)',
+        '100': 'oklch(0.44 0.96 303)',
+        }} 
+    />
+  </ColorPalette>
+  
+  ## Color-mix palettes 
+
+  These palettes use the [color-mix](https://developer.mozilla.org/en-US/docs/Web/CSS/color_value/color-mix) function to create mixes of colors.
+
+  ### Charcoal
+  <ColorPalette>
+    <ColorItem
+    title="color.colormix.scales"
+    subtitle="charcoal"
+    colors={{
+      '100': 'color-mix(in oklch, oklch(0.25 0.01 315) 10%, white)',
+      '200': 'color-mix(in oklch, oklch(0.25 0.01 315) 20%, white)',
+      '300': 'color-mix(in oklch, oklch(0.25 0.01 315) 30%, white)',
+      '400': 'color-mix(in oklch, oklch(0.25 0.01 315) 40%, white)', 
+      '500': 'color-mix(in oklch, oklch(0.25 0.01 315) 50%, white)',
+      '600': 'color-mix(in oklch, oklch(0.25 0.01 315) 60%, white)', 
+      '700': 'color-mix(in srgb, oklch(0.25 0.01 315) 70%, white)',
+      '800': 'color-mix(in oklch, oklch(0.25 0.01 315) 80%, white)',
+      '900': 'color-mix(in oklch, oklch(0.25 0.01 315) 90%, white)'
+    }} />
+  </ColorPalette>

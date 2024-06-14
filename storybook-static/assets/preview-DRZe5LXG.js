@@ -1,0 +1,1 @@
+const e={parameters:{controls:{matchers:{color:/(background|color)$/i,date:/Date$/i}},html:{prettier:{tabWidth:2,useTabs:!1,htmlWhitespaceSensitivity:"strict"},highlighter:{showLineNumbers:!0,wrapLines:!1}}}};export{e as default};

@@ -1,0 +1,3 @@
+import{j as t}from"./jsx-runtime-D_xMxKvB.js";import{u as o}from"./index-Vmd-o0lh.js";import{M as s}from"./index-8RRYiVhu.js";import"./iframe-k6bqA7lk.js";import"../sb-preview/runtime.js";import"./index-B5rfWaSj.js";import"./index-DXimoRZY.js";import"./index-DrFu-skq.js";function r(e){const n={h1:"h1",p:"p",...o(),...e.components};return t.jsxs(t.Fragment,{children:[t.jsx(s,{title:"Effects/Introduction"}),`
+`,t.jsx(n.h1,{id:"effects",children:"Effects"}),`
+`,t.jsx(n.p,{children:"Everything under this category are visual effects and tricks that will enhance website experiences."})]})}function x(e={}){const{wrapper:n}={...o(),...e.components};return n?t.jsx(n,{...e,children:t.jsx(r,{...e})}):r(e)}export{x as default};
