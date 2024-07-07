@@ -12,7 +12,8 @@ const config = {
     "@whitespace/storybook-addon-html",
     "@storybook/addon-themes",
     "@storybook/addon-mdx-gfm",
-    "@storybook/addon-docs"
+    "@storybook/addon-docs",
+    "@chromatic-com/storybook"
   ],
   framework: {
     name: "@storybook/html-vite",

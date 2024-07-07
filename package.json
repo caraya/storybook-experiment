@@ -12,22 +12,23 @@
   "license": "MIT",
   "description": "",
   "devDependencies": {
-    "@storybook/addon-essentials": "^8.1.5",
-    "@storybook/addon-interactions": "^8.1.5",
-    "@storybook/addon-links": "^8.1.5",
-    "@storybook/addon-mdx-gfm": "^8.1.5",
-    "@storybook/addon-themes": "^8.1.5",
-    "@storybook/blocks": "^8.1.5",
-    "@storybook/html": "^8.1.5",
-    "@storybook/html-vite": "^8.1.5",
-    "@storybook/test": "^8.1.5",
+    "@chromatic-com/storybook": "^1.5.0",
+    "@storybook/addon-essentials": "^8.1.10",
+    "@storybook/addon-interactions": "^8.1.10",
+    "@storybook/addon-links": "^8.1.10",
+    "@storybook/addon-mdx-gfm": "^8.1.10",
+    "@storybook/addon-themes": "^8.1.10",
+    "@storybook/blocks": "^8.1.10",
+    "@storybook/html": "^8.1.10",
+    "@storybook/html-vite": "^8.1.10",
+    "@storybook/test": "^8.1.10",
     "@whitespace/storybook-addon-html": "^6.1.1",
     "postcss-dark-theme-class": "^1.2.2",
     "prettier": "^3.2.5",
     "react-syntax-highlighter": "^15.5.0",
-    "storybook": "^8.1.5"
+    "storybook": "^8.1.10"
   },
   "dependencies": {
-    "@storybook/addon-docs": "^8.1.5"
+    "@storybook/addon-docs": "^8.1.10"
   }
 }
